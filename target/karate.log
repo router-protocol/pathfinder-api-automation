@@ -1,0 +1,1409 @@
+23:51:34.011 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:51:36.748 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+23:51:36.827 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+23:51:36.837 [pool-1-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+23:51:37.149 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:37.151 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:37.975 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x0b2c639c533813f4aa9d7837caf62653d097ff85&amount=100000000&destFuel=0&toTokenChainId=10&fromTokenAddress=0xaf88d065e77c8cC2239327C5EDb3A432268e5831&slippageTolerance=2&partnerId=1&fromTokenChainId=42161
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:41.486 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 3483
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192558.622448
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 2762ms
+1 < Content-Length: 1541
+1 < Date: Wed, 08 May 2024 18:21:41 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0xef300fb4243a0ff3b90c8ccfa1264d78182adaa4","bridgeFee":{"amount":"61529","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","toTokenAddress":"0x0b2c639c533813f4aa9d7837caf62653d097ff85","source":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99938471","stableReserveAmount":"99938471","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:41.629 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:41.631 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:41.639 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4&amount=100000000&destFuel=0&toTokenChainId=324&fromTokenAddress=0xaf88d065e77c8cC2239327C5EDb3A432268e5831&slippageTolerance=2&partnerId=1&fromTokenChainId=42161
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:42.348 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 707
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192561.816736
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 491ms
+1 < Content-Length: 1545
+1 < Date: Wed, 08 May 2024 18:21:42 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0xef300fb4243a0ff3b90c8ccfa1264d78182adaa4","bridgeFee":{"amount":"145499","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","toTokenAddress":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","source":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99854501","stableReserveAmount":"99854501","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:42.429 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:42.434 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:42.454 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x3c499c542cef5e3811e1192ce70d8cc03d5c3359&amount=100000000&destFuel=0&toTokenChainId=137&fromTokenAddress=0xaf88d065e77c8cC2239327C5EDb3A432268e5831&slippageTolerance=2&partnerId=1&fromTokenChainId=42161
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:43.167 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 710
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192562.650343
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 485ms
+1 < Content-Length: 1544
+1 < Date: Wed, 08 May 2024 18:21:43 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0xef300fb4243a0ff3b90c8ccfa1264d78182adaa4","bridgeFee":{"amount":"59371","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","toTokenAddress":"0x3c499c542cef5e3811e1192ce70d8cc03d5c3359","source":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99940629","stableReserveAmount":"99940629","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:43.226 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:43.228 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:43.240 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0xaf88d065e77c8cC2239327C5EDb3A432268e5831&amount=100000000&destFuel=0&toTokenChainId=42161&fromTokenAddress=0x0b2c639c533813f4aa9d7837caf62653d097ff85&slippageTolerance=2&partnerId=1&fromTokenChainId=10
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:46.230 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 2985
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192563.421444
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 2844ms
+1 < Content-Length: 1541
+1 < Date: Wed, 08 May 2024 18:21:46 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06","bridgeFee":{"amount":"53571","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0x0b2c639c533813f4aa9d7837caf62653d097ff85","toTokenAddress":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","source":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99946429","stableReserveAmount":"99946429","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:46.300 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:46.304 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:46.326 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4&amount=100000000&destFuel=0&toTokenChainId=324&fromTokenAddress=0x0b2c639c533813f4aa9d7837caf62653d097ff85&slippageTolerance=2&partnerId=1&fromTokenChainId=10
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:46.959 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 629
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192566.503532
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 473ms
+1 < Content-Length: 1528
+1 < Date: Wed, 08 May 2024 18:21:46 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06","bridgeFee":{"amount":"145499","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0x0b2c639c533813f4aa9d7837caf62653d097ff85","toTokenAddress":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","source":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99854501","stableReserveAmount":"99854501","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:47.017 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:47.019 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:47.030 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x3c499c542cef5e3811e1192ce70d8cc03d5c3359&amount=100000000&destFuel=0&toTokenChainId=137&fromTokenAddress=0x0b2c639c533813f4aa9d7837caf62653d097ff85&slippageTolerance=2&partnerId=1&fromTokenChainId=10
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:47.877 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 844
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192567.209188
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 654ms
+1 < Content-Length: 1527
+1 < Date: Wed, 08 May 2024 18:21:47 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06","bridgeFee":{"amount":"59371","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0x0b2c639c533813f4aa9d7837caf62653d097ff85","toTokenAddress":"0x3c499c542cef5e3811e1192ce70d8cc03d5c3359","source":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99940629","stableReserveAmount":"99940629","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:47.938 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:47.942 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:47.958 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0xaf88d065e77c8cC2239327C5EDb3A432268e5831&amount=100000000&destFuel=0&toTokenChainId=42161&fromTokenAddress=0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4&slippageTolerance=2&partnerId=1&fromTokenChainId=324
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:48.693 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 733
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192568.141122
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 560ms
+1 < Content-Length: 1544
+1 < Date: Wed, 08 May 2024 18:21:48 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8b6f1c18c866f37e6ea98aa539e0c117e70178a2","bridgeFee":{"amount":"53571","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","toTokenAddress":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","source":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99946429","stableReserveAmount":"99946429","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:48.711 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:48.713 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:48.719 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x0b2c639c533813f4aa9d7837caf62653d097ff85&amount=100000000&destFuel=0&toTokenChainId=10&fromTokenAddress=0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4&slippageTolerance=2&partnerId=1&fromTokenChainId=324
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:49.306 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 584
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192568.879677
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 467ms
+1 < Content-Length: 1527
+1 < Date: Wed, 08 May 2024 18:21:49 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8b6f1c18c866f37e6ea98aa539e0c117e70178a2","bridgeFee":{"amount":"61529","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","toTokenAddress":"0x0b2c639c533813f4aa9d7837caf62653d097ff85","source":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99938471","stableReserveAmount":"99938471","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:49.342 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:49.344 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:49.361 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x3c499c542cef5e3811e1192ce70d8cc03d5c3359&amount=100000000&destFuel=0&toTokenChainId=137&fromTokenAddress=0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4&slippageTolerance=2&partnerId=1&fromTokenChainId=324
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:50.028 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 664
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192569.590533
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 465ms
+1 < Content-Length: 1530
+1 < Date: Wed, 08 May 2024 18:21:50 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8b6f1c18c866f37e6ea98aa539e0c117e70178a2","bridgeFee":{"amount":"59371","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","toTokenAddress":"0x3c499c542cef5e3811e1192ce70d8cc03d5c3359","source":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99940629","stableReserveAmount":"99940629","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:50.099 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:50.105 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:50.153 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0xaf88d065e77c8cC2239327C5EDb3A432268e5831&amount=100000000&destFuel=0&toTokenChainId=42161&fromTokenAddress=0x3c499c542cef5e3811e1192ce70d8cc03d5c3359&slippageTolerance=2&partnerId=1&fromTokenChainId=137
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:50.747 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 593
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192570.315305
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 472ms
+1 < Content-Length: 1544
+1 < Date: Wed, 08 May 2024 18:21:50 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x1396f41d89b96eaf29a7ef9ee01ad36e452235ae","bridgeFee":{"amount":"53571","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0x3c499c542cef5e3811e1192ce70d8cc03d5c3359","toTokenAddress":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","source":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USD Coin","chainId":"42161","address":"0xaf88d065e77c8cC2239327C5EDb3A432268e5831","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99946429","stableReserveAmount":"99946429","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:50.799 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:50.802 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:50.818 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x0b2c639c533813f4aa9d7837caf62653d097ff85&amount=100000000&destFuel=0&toTokenChainId=10&fromTokenAddress=0x3c499c542cef5e3811e1192ce70d8cc03d5c3359&slippageTolerance=2&partnerId=1&fromTokenChainId=137
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:51.429 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 608
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192570.995508
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 474ms
+1 < Content-Length: 1527
+1 < Date: Wed, 08 May 2024 18:21:51 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x1396f41d89b96eaf29a7ef9ee01ad36e452235ae","bridgeFee":{"amount":"61529","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0x3c499c542cef5e3811e1192ce70d8cc03d5c3359","toTokenAddress":"0x0b2c639c533813f4aa9d7837caf62653d097ff85","source":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"10","address":"0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99938471","stableReserveAmount":"99938471","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:51.468 [pool-1-thread-2] INFO  com.intuit.karate - [print] 6 
+23:51:51.470 [pool-1-thread-2] INFO  com.intuit.karate - [print] 100000000 
+23:51:51.483 [pool-1-thread-2] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4&amount=100000000&destFuel=0&toTokenChainId=324&fromTokenAddress=0x3c499c542cef5e3811e1192ce70d8cc03d5c3359&slippageTolerance=2&partnerId=1&fromTokenChainId=137
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:52.091 [pool-1-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 605
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192571.655821
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 474ms
+1 < Content-Length: 1531
+1 < Date: Wed, 08 May 2024 18:21:52 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x1396f41d89b96eaf29a7ef9ee01ad36e452235ae","bridgeFee":{"amount":"145499","decimals":6,"symbol":"USDC"},"fromTokenAddress":"0x3c499c542cef5e3811e1192ce70d8cc03d5c3359","toTokenAddress":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","source":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"137","address":"0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDC","name":"USDC","chainId":"324","address":"0x3355df6D4c9C3035724Fd0e3914dE96A5a83aaf4","resourceID":"usdc-circle","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99854501","stableReserveAmount":"99854501","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:52.180 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:51:52.186 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:51:52.208 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x94b008aa00579c1307b0ef2c499ad98a8ce58e58&amount=100000000&destFuel=0&toTokenChainId=10&fromTokenAddress=0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9&slippageTolerance=2&partnerId=1&fromTokenChainId=42161
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:54.879 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2669
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192572.393111
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 2529ms
+1 < Content-Length: 1517
+1 < Date: Wed, 08 May 2024 18:21:54 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0xef300fb4243a0ff3b90c8ccfa1264d78182adaa4","bridgeFee":{"amount":"61529","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","toTokenAddress":"0x94b008aa00579c1307b0ef2c499ad98a8ce58e58","source":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99938471","stableReserveAmount":"99938471","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:54.895 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:51:54.896 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:51:54.901 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x493257fD37EDB34451f62EDf8D2a0C418852bA4C&amount=100000000&destFuel=0&toTokenChainId=324&fromTokenAddress=0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9&slippageTolerance=2&partnerId=1&fromTokenChainId=42161
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:55.495 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 593
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192575.062549
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 475ms
+1 < Content-Length: 1521
+1 < Date: Wed, 08 May 2024 18:21:55 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0xef300fb4243a0ff3b90c8ccfa1264d78182adaa4","bridgeFee":{"amount":"145499","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","toTokenAddress":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","source":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99854501","stableReserveAmount":"99854501","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:55.519 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:51:55.520 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:51:55.529 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0xc2132d05d31c914a87c6611c10748aeb04b58e8f&amount=100000000&destFuel=0&toTokenChainId=137&fromTokenAddress=0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9&slippageTolerance=2&partnerId=1&fromTokenChainId=42161
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:56.345 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 812
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192575.703116
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 665ms
+1 < Content-Length: 1532
+1 < Date: Wed, 08 May 2024 18:21:56 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0xef300fb4243a0ff3b90c8ccfa1264d78182adaa4","bridgeFee":{"amount":"59371","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","toTokenAddress":"0xc2132d05d31c914a87c6611c10748aeb04b58e8f","source":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99940629","stableReserveAmount":"99940629","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:56.379 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:51:56.381 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:51:56.391 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9&amount=100000000&destFuel=0&toTokenChainId=42161&fromTokenAddress=0x94b008aa00579c1307b0ef2c499ad98a8ce58e58&slippageTolerance=2&partnerId=1&fromTokenChainId=10
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:51:59.345 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 2951
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192576.558618
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 2779ms
+1 < Content-Length: 1517
+1 < Date: Wed, 08 May 2024 18:21:59 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06","bridgeFee":{"amount":"53571","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0x94b008aa00579c1307b0ef2c499ad98a8ce58e58","toTokenAddress":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","source":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99946429","stableReserveAmount":"99946429","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:51:59.370 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:51:59.372 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:51:59.380 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x493257fD37EDB34451f62EDf8D2a0C418852bA4C&amount=100000000&destFuel=0&toTokenChainId=324&fromTokenAddress=0x94b008aa00579c1307b0ef2c499ad98a8ce58e58&slippageTolerance=2&partnerId=1&fromTokenChainId=10
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:02.416 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 3033
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192579.553194
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 2864ms
+1 < Content-Length: 1500
+1 < Date: Wed, 08 May 2024 18:22:02 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06","bridgeFee":{"amount":"145499","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0x94b008aa00579c1307b0ef2c499ad98a8ce58e58","toTokenAddress":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","source":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99854501","stableReserveAmount":"99854501","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:02.442 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:52:02.444 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:52:02.453 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0xc2132d05d31c914a87c6611c10748aeb04b58e8f&amount=100000000&destFuel=0&toTokenChainId=137&fromTokenAddress=0x94b008aa00579c1307b0ef2c499ad98a8ce58e58&slippageTolerance=2&partnerId=1&fromTokenChainId=10
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:03.136 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 680
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192582.629464
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 478ms
+1 < Content-Length: 1511
+1 < Date: Wed, 08 May 2024 18:22:03 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06","bridgeFee":{"amount":"59371","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0x94b008aa00579c1307b0ef2c499ad98a8ce58e58","toTokenAddress":"0xc2132d05d31c914a87c6611c10748aeb04b58e8f","source":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99940629","stableReserveAmount":"99940629","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:03.166 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:52:03.168 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:52:03.178 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9&amount=100000000&destFuel=0&toTokenChainId=42161&fromTokenAddress=0x493257fD37EDB34451f62EDf8D2a0C418852bA4C&slippageTolerance=2&partnerId=1&fromTokenChainId=324
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:03.775 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 594
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192583.348265
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 467ms
+1 < Content-Length: 1520
+1 < Date: Wed, 08 May 2024 18:22:03 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8b6f1c18c866f37e6ea98aa539e0c117e70178a2","bridgeFee":{"amount":"53571","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","toTokenAddress":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","source":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99946429","stableReserveAmount":"99946429","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:03.801 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:52:03.803 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:52:03.811 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x94b008aa00579c1307b0ef2c499ad98a8ce58e58&amount=100000000&destFuel=0&toTokenChainId=10&fromTokenAddress=0x493257fD37EDB34451f62EDf8D2a0C418852bA4C&slippageTolerance=2&partnerId=1&fromTokenChainId=324
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:04.464 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 651
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192583.980293
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 461ms
+1 < Content-Length: 1499
+1 < Date: Wed, 08 May 2024 18:22:04 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8b6f1c18c866f37e6ea98aa539e0c117e70178a2","bridgeFee":{"amount":"61529","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","toTokenAddress":"0x94b008aa00579c1307b0ef2c499ad98a8ce58e58","source":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99938471","stableReserveAmount":"99938471","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:04.492 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:52:04.493 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:52:04.502 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0xc2132d05d31c914a87c6611c10748aeb04b58e8f&amount=100000000&destFuel=0&toTokenChainId=137&fromTokenAddress=0x493257fD37EDB34451f62EDf8D2a0C418852bA4C&slippageTolerance=2&partnerId=1&fromTokenChainId=324
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:05.181 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 677
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192584.669638
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 470ms
+1 < Content-Length: 1514
+1 < Date: Wed, 08 May 2024 18:22:05 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8b6f1c18c866f37e6ea98aa539e0c117e70178a2","bridgeFee":{"amount":"59371","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","toTokenAddress":"0xc2132d05d31c914a87c6611c10748aeb04b58e8f","source":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99940629","stableReserveAmount":"99940629","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:05.207 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:52:05.208 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:52:05.217 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9&amount=100000000&destFuel=0&toTokenChainId=42161&fromTokenAddress=0xc2132d05d31c914a87c6611c10748aeb04b58e8f&slippageTolerance=2&partnerId=1&fromTokenChainId=137
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:05.898 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 677
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192585.391514
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 476ms
+1 < Content-Length: 1532
+1 < Date: Wed, 08 May 2024 18:22:05 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x1396f41d89b96eaf29a7ef9ee01ad36e452235ae","bridgeFee":{"amount":"53571","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0xc2132d05d31c914a87c6611c10748aeb04b58e8f","toTokenAddress":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","source":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"42161","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"42161","address":"0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99946429","stableReserveAmount":"99946429","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:05.932 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:52:05.934 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:52:05.942 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x94b008aa00579c1307b0ef2c499ad98a8ce58e58&amount=100000000&destFuel=0&toTokenChainId=10&fromTokenAddress=0xc2132d05d31c914a87c6611c10748aeb04b58e8f&slippageTolerance=2&partnerId=1&fromTokenChainId=137
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:06.615 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 669
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192586.117307
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 475ms
+1 < Content-Length: 1511
+1 < Date: Wed, 08 May 2024 18:22:06 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x1396f41d89b96eaf29a7ef9ee01ad36e452235ae","bridgeFee":{"amount":"61529","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0xc2132d05d31c914a87c6611c10748aeb04b58e8f","toTokenAddress":"0x94b008aa00579c1307b0ef2c499ad98a8ce58e58","source":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"10","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"10","address":"0x94b008aA00579c1307B0EF2c499aD98a8ce58e58","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99938471","stableReserveAmount":"99938471","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:06.647 [pool-1-thread-1] INFO  com.intuit.karate - [print] 6 
+23:52:06.649 [pool-1-thread-1] INFO  com.intuit.karate - [print] 100000000 
+23:52:06.658 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x493257fD37EDB34451f62EDf8D2a0C418852bA4C&amount=100000000&destFuel=0&toTokenChainId=324&fromTokenAddress=0xc2132d05d31c914a87c6611c10748aeb04b58e8f&slippageTolerance=2&partnerId=1&fromTokenChainId=137
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:07.286 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 626
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192586.826196
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 473ms
+1 < Content-Length: 1515
+1 < Date: Wed, 08 May 2024 18:22:07 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x1396f41d89b96eaf29a7ef9ee01ad36e452235ae","bridgeFee":{"amount":"145499","decimals":6,"symbol":"USDT"},"fromTokenAddress":"0xc2132d05d31c914a87c6611c10748aeb04b58e8f","toTokenAddress":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","source":{"chainId":"137","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"Tether USD","chainId":"137","address":"0xc2132D05D31c914a87C6611C10748AEb04B58e8F","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000","stableReserveAmount":"100000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"324","chainType":"evm","asset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":6,"symbol":"USDT","name":"USDT","chainId":"324","address":"0x493257fD37EDB34451f62EDf8D2a0C418852bA4C","resourceID":"usdt","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99854501","stableReserveAmount":"99854501","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:07.339 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:07.342 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:07.353 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x4200000000000000000000000000000000000006&amount=100000000000000000&destFuel=0&toTokenChainId=10&fromTokenAddress=0x82aF49447D8a07e3bd95BD0d56f35241523fBab1&slippageTolerance=2&partnerId=1&fromTokenChainId=42161
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:11.120 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 3765
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192587.523549
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 3620ms
+1 < Content-Length: 1579
+1 < Date: Wed, 08 May 2024 18:22:11 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0xef300fb4243a0ff3b90c8ccfa1264d78182adaa4","bridgeFee":{"amount":"47142309916449","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","toTokenAddress":"0x4200000000000000000000000000000000000006","source":{"chainId":"42161","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"10","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99952857690083551","stableReserveAmount":"99952857690083551","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:11.150 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:11.152 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:11.159 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91&amount=100000000000000000&destFuel=0&toTokenChainId=324&fromTokenAddress=0x82aF49447D8a07e3bd95BD0d56f35241523fBab1&slippageTolerance=2&partnerId=1&fromTokenChainId=42161
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:11.839 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 677
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192591.343746
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 533ms
+1 < Content-Length: 1582
+1 < Date: Wed, 08 May 2024 18:22:11 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0xef300fb4243a0ff3b90c8ccfa1264d78182adaa4","bridgeFee":{"amount":"75000000000000","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","toTokenAddress":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","source":{"chainId":"42161","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"324","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99925000000000000","stableReserveAmount":"99925000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:11.855 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:11.855 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:11.859 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x7ceb23fd6bc0add59e62ac25578270cff1b9f619&amount=100000000000000000&destFuel=0&toTokenChainId=137&fromTokenAddress=0x82aF49447D8a07e3bd95BD0d56f35241523fBab1&slippageTolerance=2&partnerId=1&fromTokenChainId=42161
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:12.514 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 652
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192592.017022
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 540ms
+1 < Content-Length: 1600
+1 < Date: Wed, 08 May 2024 18:22:12 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0xef300fb4243a0ff3b90c8ccfa1264d78182adaa4","bridgeFee":{"amount":"46426488454781","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","toTokenAddress":"0x7ceb23fd6bc0add59e62ac25578270cff1b9f619","source":{"chainId":"42161","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"137","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99953573511545219","stableReserveAmount":"99953573511545219","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:12.548 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:12.551 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:12.559 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x82aF49447D8a07e3bd95BD0d56f35241523fBab1&amount=100000000000000000&destFuel=0&toTokenChainId=42161&fromTokenAddress=0x4200000000000000000000000000000000000006&slippageTolerance=2&partnerId=1&fromTokenChainId=10
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:13.273 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 711
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192592.724378
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 542ms
+1 < Content-Length: 1579
+1 < Date: Wed, 08 May 2024 18:22:13 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06","bridgeFee":{"amount":"44502190000000","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x4200000000000000000000000000000000000006","toTokenAddress":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","source":{"chainId":"10","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"42161","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99955497810000000","stableReserveAmount":"99955497810000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:13.303 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:13.305 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:13.315 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91&amount=100000000000000000&destFuel=0&toTokenChainId=324&fromTokenAddress=0x4200000000000000000000000000000000000006&slippageTolerance=2&partnerId=1&fromTokenChainId=10
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:13.987 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 670
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192593.489552
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 539ms
+1 < Content-Length: 1573
+1 < Date: Wed, 08 May 2024 18:22:14 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06","bridgeFee":{"amount":"75000000000000","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x4200000000000000000000000000000000000006","toTokenAddress":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","source":{"chainId":"10","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"324","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99925000000000000","stableReserveAmount":"99925000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:14.014 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:14.016 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:14.026 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x7ceb23fd6bc0add59e62ac25578270cff1b9f619&amount=100000000000000000&destFuel=0&toTokenChainId=137&fromTokenAddress=0x4200000000000000000000000000000000000006&slippageTolerance=2&partnerId=1&fromTokenChainId=10
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:14.700 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 673
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192594.197995
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 542ms
+1 < Content-Length: 1591
+1 < Date: Wed, 08 May 2024 18:22:14 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8201c02d4ab2214471e8c3ad6475c8b0cd9f2d06","bridgeFee":{"amount":"46426488454781","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x4200000000000000000000000000000000000006","toTokenAddress":"0x7ceb23fd6bc0add59e62ac25578270cff1b9f619","source":{"chainId":"10","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"137","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99953573511545219","stableReserveAmount":"99953573511545219","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:14.718 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:14.719 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:14.725 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x82aF49447D8a07e3bd95BD0d56f35241523fBab1&amount=100000000000000000&destFuel=0&toTokenChainId=42161&fromTokenAddress=0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91&slippageTolerance=2&partnerId=1&fromTokenChainId=324
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:15.403 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 676
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192594.889545
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 553ms
+1 < Content-Length: 1582
+1 < Date: Wed, 08 May 2024 18:22:15 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8b6f1c18c866f37e6ea98aa539e0c117e70178a2","bridgeFee":{"amount":"44502190000000","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","toTokenAddress":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","source":{"chainId":"324","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"42161","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99955497810000000","stableReserveAmount":"99955497810000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:15.438 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:15.441 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:15.452 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x4200000000000000000000000000000000000006&amount=100000000000000000&destFuel=0&toTokenChainId=10&fromTokenAddress=0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91&slippageTolerance=2&partnerId=1&fromTokenChainId=324
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:16.139 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 683
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192595.623857
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 535ms
+1 < Content-Length: 1573
+1 < Date: Wed, 08 May 2024 18:22:16 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8b6f1c18c866f37e6ea98aa539e0c117e70178a2","bridgeFee":{"amount":"47142309916449","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","toTokenAddress":"0x4200000000000000000000000000000000000006","source":{"chainId":"324","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"10","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99952857690083551","stableReserveAmount":"99952857690083551","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:16.170 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:16.172 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:16.180 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x7ceb23fd6bc0add59e62ac25578270cff1b9f619&amount=100000000000000000&destFuel=0&toTokenChainId=137&fromTokenAddress=0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91&slippageTolerance=2&partnerId=1&fromTokenChainId=324
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:16.839 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 657
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192596.346525
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 539ms
+1 < Content-Length: 1594
+1 < Date: Wed, 08 May 2024 18:22:16 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x8b6f1c18c866f37e6ea98aa539e0c117e70178a2","bridgeFee":{"amount":"46426488454781","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","toTokenAddress":"0x7ceb23fd6bc0add59e62ac25578270cff1b9f619","source":{"chainId":"324","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"137","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99953573511545219","stableReserveAmount":"99953573511545219","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:16.858 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:16.858 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:16.864 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x82aF49447D8a07e3bd95BD0d56f35241523fBab1&amount=100000000000000000&destFuel=0&toTokenChainId=42161&fromTokenAddress=0x7ceb23fd6bc0add59e62ac25578270cff1b9f619&slippageTolerance=2&partnerId=1&fromTokenChainId=137
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:17.504 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 638
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192597.024087
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 521ms
+1 < Content-Length: 1600
+1 < Date: Wed, 08 May 2024 18:22:17 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x1396f41d89b96eaf29a7ef9ee01ad36e452235ae","bridgeFee":{"amount":"44502190000000","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x7ceb23fd6bc0add59e62ac25578270cff1b9f619","toTokenAddress":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","source":{"chainId":"137","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"42161","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"42161","address":"0x82aF49447D8a07e3bd95BD0d56f35241523fBab1","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99955497810000000","stableReserveAmount":"99955497810000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:17.536 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:17.538 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:17.546 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x4200000000000000000000000000000000000006&amount=100000000000000000&destFuel=0&toTokenChainId=10&fromTokenAddress=0x7ceb23fd6bc0add59e62ac25578270cff1b9f619&slippageTolerance=2&partnerId=1&fromTokenChainId=137
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:18.288 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 739
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192597.720907
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 562ms
+1 < Content-Length: 1591
+1 < Date: Wed, 08 May 2024 18:22:18 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x1396f41d89b96eaf29a7ef9ee01ad36e452235ae","bridgeFee":{"amount":"47142309916449","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x7ceb23fd6bc0add59e62ac25578270cff1b9f619","toTokenAddress":"0x4200000000000000000000000000000000000006","source":{"chainId":"137","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"10","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"10","address":"0x4200000000000000000000000000000000000006","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99952857690083551","stableReserveAmount":"99952857690083551","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:18.312 [pool-1-thread-3] INFO  com.intuit.karate - [print] 18 
+23:52:18.313 [pool-1-thread-3] INFO  com.intuit.karate - [print] 100000000000000000 
+23:52:18.320 [pool-1-thread-3] DEBUG com.intuit.karate - request:
+1 > GET https://api-beta.pathfinder.routerprotocol.com/api/v2/quote?toTokenAddress=0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91&amount=100000000000000000&destFuel=0&toTokenChainId=324&fromTokenAddress=0x7ceb23fd6bc0add59e62ac25578270cff1b9f619&slippageTolerance=2&partnerId=1&fromTokenChainId=137
+1 > Host: api-beta.pathfinder.routerprotocol.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/11.0.21)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:52:18.976 [pool-1-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 652
+1 < 200
+1 < Vary: Origin
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: pf-api-response-time
+1 < Content-Security-Policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < Cross-Origin-Embedder-Policy: require-corp
+1 < Cross-Origin-Opener-Policy: same-origin
+1 < Cross-Origin-Resource-Policy: same-origin
+1 < Origin-Agent-Cluster: ?1
+1 < Referrer-Policy: no-referrer
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < X-Content-Type-Options: nosniff
+1 < X-DNS-Prefetch-Control: off
+1 < X-Download-Options: noopen
+1 < X-Frame-Options: SAMEORIGIN
+1 < X-Permitted-Cross-Domain-Policies: none
+1 < X-XSS-Protection: 0
+1 < X-RateLimit-Remaining: 19
+1 < X-RateLimit-Reset: 1715192598.488667
+1 < X-RateLimit-Total: 20
+1 < Content-Type: application/json; charset=utf-8
+1 < pf-api-response-time: 529ms
+1 < Content-Length: 1594
+1 < Date: Wed, 08 May 2024 18:22:19 GMT
+1 < Via: 1.1 google
+1 < Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+{"flowType":"trustless","isTransfer":true,"isWrappedToken":false,"allowanceTo":"0x1396f41d89b96eaf29a7ef9ee01ad36e452235ae","bridgeFee":{"amount":"75000000000000","decimals":18,"symbol":"WETH"},"fromTokenAddress":"0x7ceb23fd6bc0add59e62ac25578270cff1b9f619","toTokenAddress":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","source":{"chainId":"137","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"Wrapped Ether","chainId":"137","address":"0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"100000000000000000","stableReserveAmount":"100000000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"destination":{"chainId":"324","chainType":"evm","asset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"stableReserveAsset":{"decimals":18,"symbol":"WETH","name":"WETH","chainId":"324","address":"0x5AEa5775959fBC2557Cc8789bC1bf90A239D9a91","resourceID":"native-eth","isMintable":false,"isWrappedAsset":false},"tokenAmount":"99925000000000000","stableReserveAmount":"99925000000000000","path":[],"flags":[],"priceImpact":"0","tokenPath":"","dataTx":[]},"partnerId":1,"fuelTransfer":null,"slippageTolerance":"2","estimatedTime":40}
+
+23:52:22.448 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:routerProtocol/testScripts/testCases.feature
