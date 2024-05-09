@@ -23,6 +23,10 @@ file:///D:/Atosh/GIT-HUB/TestNet-API-Automation/target/karate-reports/karate-sum
 9) For detailed logs you can check /target/Karate.log
 10) You can increase the thread count in TestRunner to make the execution faster. (Recommended as it is for now)
 
+### HTML Report
+
+![img.png](img.png)
+
 ### For more info:
 * Email: atosh@routerprotocol.com
 * Slack: Veer
